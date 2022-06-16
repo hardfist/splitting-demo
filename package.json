@@ -1,0 +1,23 @@
+{
+  "name": "splitting-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup  src/index.js --dir=dist --preserveEntrySignatures "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hardfist/splitting-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hardfist/splitting-demo/issues"
+  },
+  "homepage": "https://github.com/hardfist/splitting-demo#readme",
+  "dependencies": {
+    "rollup": "^2.75.6"
+  }
+}
