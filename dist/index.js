@@ -1,15 +1,15 @@
-const share = 'share';
+const common_share = 'common_share';
 
 function main() {
-  const { answer } = import('./answer-e6f63c6c.js');
-  const { secret } = import('./secret-4d03b3ab.js');
+  const { answer } = import('./async-a-d46a7dce.js');
+  const { secret } = import('./async-b-94e384e4.js');
   console.log({
     secret,
     answer,
-    share,
+    common_share,
   });
 }
 
 main();
 
-export { share as s };
+export { common_share as c };
